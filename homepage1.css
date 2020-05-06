@@ -1,37 +1,23 @@
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-<title>Login Page</title>
-<script src="js/new.js"></script>
-</head>
-<body>
-  <div class="new">
-  <div class="img1" align="left"><image src="../images/logo.jpg"></div>
-  <a href="dlogin.php">Login</a><a href="dregister.php">Signup</a>                
-<h2>DOCTOR PATIENT PORTAL</h2>
-<p>your name:</p>
-</div>
-  <header>
-<div id="sidebar">
-<div class="toggle-btn" onclick="togglesidebar()">
-  <span></span>
-  <span></span>
-  <span></span>
-  </div>
-    <ul>
-  <li><a href="dhomepage.php">Home</a></li>
-  <li><a href="dlogin.php">Login page</a></li>
-  <li><a href="dregister.php">Registration</a></li>
-  <li><a href="organs.php">Donated Organs</a></li>
-  <li><a href="dfeedback.php">Feedback</a></li>
-    <li><a href="contactus.php">Contactus</a></li>
-</div>
-</div>
- <style type="text/css">
-  body{
+  .footer{
+  text-align-last: right;
+   margin-top: 100px;
+   padding: 15px;
+   background: #008080;
+
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
+}
+ body{
     position: sticky;
-    background-image: url("../images/lol4.jpg");
+    background-image: url("images/lol4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   } 
@@ -45,7 +31,7 @@
 }
 
 #sidebar{
-  margin-top: 85px;
+  margin-top: -60px;
   position:fixed;
   width:200px;
   height:100%;
@@ -81,8 +67,8 @@
 .new {
   position: fixed;
   background-color: #008080;
-  margin-top: 0px;
-  padding: 20px;
+  margin-top: -180px;
+  padding: 50px;
   width: 100%;
   height: auto;
   text-align: center;
@@ -91,8 +77,8 @@
 }
 .new img
 { 
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   position: fixed;
   width: 50px;
   height: auto;
@@ -140,5 +126,40 @@ form.example::after {
 .new p{
   text-align:right;
 }
+.footer{
+  text-align-last: right;
+   margin-top: 100px;
+   padding: 15px;
+   background: #008080;
 
-</style>
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  margin: 10px;
+}
+.footer ul li a{
+color: white;
+}
+.para{
+padding: 20px;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 170px;
+text-align:center;
+ text-shadow: 0 0 3px #ffffff, 0 0 5px  #ffffff;
+background: #008080;
+ box-shadow: 10px 10px 5px grey;
+}
+.para h3{
+  padding: 20px;
+}
+.para p{
+  padding: 20px;
+  margin : 5px;
+}
+.para img{
+   box-shadow: 10px 10px;
+}

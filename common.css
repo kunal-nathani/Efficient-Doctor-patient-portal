@@ -1,41 +1,4 @@
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-<title>Login Page</title>
-<script src="js/new.js"></script>
-</head>
-<body>
-  <div class="new">
-  <div class="img1" align="left"><image src="../images/logo.jpg"></div>
-  <a href="dlogin.php">Login</a><a href="dregister.php">Signup</a>                
-<h2>DOCTOR PATIENT PORTAL</h2>
-<p>your name:</p>
-</div>
-  <header>
-<div id="sidebar">
-<div class="toggle-btn" onclick="togglesidebar()">
-  <span></span>
-  <span></span>
-  <span></span>
-  </div>
-    <ul>
-  <li><a href="dhomepage.php">Home</a></li>
-  <li><a href="dlogin.php">Login page</a></li>
-  <li><a href="dregister.php">Registration</a></li>
-  <li><a href="organs.php">Donated Organs</a></li>
-  <li><a href="dfeedback.php">Feedback</a></li>
-    <li><a href="contactus.php">Contactus</a></li>
-</div>
-</div>
- <style type="text/css">
-  body{
-    position: sticky;
-    background-image: url("../images/lol4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  } 
-  *{
+*{
   margin:0px;
   padding:0px;
   font-family:times new roman;
@@ -45,7 +8,7 @@
 }
 
 #sidebar{
-  margin-top: 85px;
+  margin-top: -120px;
   position:fixed;
   width:200px;
   height:100%;
@@ -81,11 +44,12 @@
 .new {
   position: fixed;
   background-color: #008080;
-  margin-top: 0px;
+  margin-top: -220px;
   padding: 20px;
   width: 100%;
   height: auto;
   text-align: center;
+
   color: #ffffff ;
 
 }
@@ -136,9 +100,47 @@ form.example::after {
   clear: both;
   display: table;
 }
+.footer{
+  text-align-last: right;
+   margin-top: 200px;
+   padding: 15px;
+   background: #008080;
 
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
+}
+.qwerty{
+  padding: 20px;
+  margin:200px;
+  text-align: center;
+  text-shadow: 0 0 3px #ffffff, 0 0 5px  #ffffff;
+  background: #008080;
+  box-shadow: 10px 10px 5px grey;
+}
+.qwerty button{
+  width: 60%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin :2px;
+  box-shadow: #f2f2f2;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
 .new p{
   text-align:right;
 }
-
-</style>

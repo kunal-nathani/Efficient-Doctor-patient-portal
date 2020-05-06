@@ -1,41 +1,20 @@
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-<title>Login Page</title>
-<script src="js/new.js"></script>
-</head>
-<body>
-  <div class="new">
-  <div class="img1" align="left"><image src="../images/logo.jpg"></div>
-  <a href="dlogin.php">Login</a><a href="dregister.php">Signup</a>                
-<h2>DOCTOR PATIENT PORTAL</h2>
-<p>your name:</p>
-</div>
-  <header>
-<div id="sidebar">
-<div class="toggle-btn" onclick="togglesidebar()">
-  <span></span>
-  <span></span>
-  <span></span>
-  </div>
-    <ul>
-  <li><a href="dhomepage.php">Home</a></li>
-  <li><a href="dlogin.php">Login page</a></li>
-  <li><a href="dregister.php">Registration</a></li>
-  <li><a href="organs.php">Donated Organs</a></li>
-  <li><a href="dfeedback.php">Feedback</a></li>
-    <li><a href="contactus.php">Contactus</a></li>
-</div>
-</div>
- <style type="text/css">
-  body{
-    position: sticky;
-    background-image: url("../images/lol4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  } 
-  *{
+  .footer{
+  text-align-last: right;
+   margin-top: 100px;
+   padding: 15px;
+   background: #008080;
+
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
+}*{
   margin:0px;
   padding:0px;
   font-family:times new roman;
@@ -45,7 +24,7 @@
 }
 
 #sidebar{
-  margin-top: 85px;
+  margin-top: -100px;
   position:fixed;
   width:200px;
   height:100%;
@@ -81,11 +60,12 @@
 .new {
   position: fixed;
   background-color: #008080;
-  margin-top: 0px;
+  margin-top: -200px;
   padding: 20px;
   width: 100%;
   height: auto;
   text-align: center;
+
   color: #ffffff ;
 
 }
@@ -136,9 +116,23 @@ form.example::after {
   clear: both;
   display: table;
 }
+.footer{
+  text-align-last: right;
+   margin-top: 200px;
+   padding: 15px;
+   background: #008080;
 
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  margin: 10px;
+}
+.footer ul li a{
+color: white;
+}
 .new p{
   text-align:right;
 }
-
-</style>

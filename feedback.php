@@ -1,41 +1,6 @@
- <html>
-<head>
-<Title>Efficient portal</Title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include('header.php'); ?>
 <link rel="stylesheet" type="text/css" href="css/feedback.css">
 <script src="js/new.js"></script>
-</head>
-<body>
-  <div class="new">
-  <div class="img1" align="left"><image src="images/logo.jpg"></div>              
-<h2>DOCTOR PATIENT PORTAL</h2>
-<p>your name:</p>
-</div>
-<div id="sidebar">
-<div class="toggle-btn" onclick="togglesidebar()">
-  <span></span>
-  <span></span>
-  <span></span>
-  </div>
-  <ul>
-  <li><a href="homepage2.php">Home</a></li>
-  <li><a href="choose.html">Login page</a></li>
-  <li><a href="registration.php">Registration</a></li>
-  <li><a href="history.php">History</a></li>
-  <li><a href="#">Appointment</a></li>
-  <li><a href="organdonationl.php">Organ Donation</a></li>
-  <li><a href="feedback.php">Feedback</a></li>
-</ul>
-</div>
- <style type="text/css">
-  body{
-    position: sticky;
-    background-image: url("lol4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  } 
-  </style>
 <div class="feedback">
 	<form action="feedbackb.php" method="post">
 		<h2>Feedback</h2>
@@ -61,6 +26,4 @@
     </script>
 </form>	
 </div>
-</header>
-</body>
-</html>
+<?php include('footer.php'); ?>

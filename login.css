@@ -1,0 +1,106 @@
+  .footer{
+  text-align-last: right;
+   margin-top: 100px;
+   padding: 15px;
+   background: #008080;
+
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
+}
+#sidebar{
+  margin-top:-45px;
+}
+.new{
+  margin-top:-130px;
+}
+.new img{
+  margin-top: 10px;
+}
+.new h2{
+  margin-top: 10px;
+}
+.new a{
+  margin-top: 10px;
+}
+input[type=password], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin :2px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.Login{
+  border: 3px solid #008080;
+  background-color: #008080;
+  padding: 60px;
+  margin-top: 110px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px grey;
+  color: white;
+}
+.Login h2{
+   text-shadow: 1px 1px 2px black, 0 0 25px #008080, 0 0 5px white;
+  text-align: center;
+}
+.Login a{
+  text-align: center;
+
+}
+.Login {
+  text-align: center;
+}
+.footer{
+  text-align-last: right;
+   margin-top: 170px;
+   padding: 15px;
+   background: #008080;
+
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
+}
+

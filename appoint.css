@@ -1,0 +1,193 @@
+  .footer{
+  text-align-last: right;
+   margin-top: 100px;
+   padding: 15px;
+   background: #008080;
+
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
+}
+*{
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif; 
+}
+.new h2{
+   text-shadow: 1px 1px 2px black, 0 0 25px #008080, 0 0 5px white;
+}
+#sidebar{
+  margin-top: -115px;
+  position:fixed;
+  width:200px;
+  height:100%;
+  background:#151719;
+  left:-200px;
+}
+#sidebar.active{
+  left:0px;
+  transition: 0.7s;
+}
+#sidebar ul li{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:15px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+  position:absolute;
+  left:230px;
+  top:20px;
+}
+#sidebar .toggle-btn span{
+  display:block;
+  width:30px;
+  height:5px;
+  background:#151719;
+  margin:5px 0px;
+}
+.new img
+{
+  margin: 5px;
+  position: fixed;
+  width: 50px;
+  height: auto;
+}
+.new{
+  margin-top: -200px;
+  position: fixed;
+  width: 100%;
+  background-color: #008080;
+  text-align: center;
+  color: white;
+  height: auto;
+  padding: 20px;
+}
+.new a{
+  margin: 2px;
+  padding: 1px;
+  background-color:#01B636;
+  float: right;
+  color: white;
+  size: 10px;
+  border:1px solid white;
+}
+form.example input[type=text] {
+  float: right;
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid black;
+  width: 20%;
+  background: #f1f1f1;
+}
+
+form.example input[type=button] {
+  margin-top: 5px;
+  float: right;
+  width: 5%;
+  padding: 7px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example input[type=button]:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.footer{
+   text-align-last: right;
+   text-align: bottom;
+   padding: 15px;
+   background: #008080;
+
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
+}
+input[type=text], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit], select {
+  background: #00b33c;
+  color: white;
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #00b33c;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=time], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.appt{
+  box-shadow: 10px 10px 5px grey;
+  font-size: large;
+  color:white; 
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 190px; 
+  margin-bottom: 100px;
+  padding:50px;
+  background:#008080;
+}
+.appt h3{
+  color: white;
+  text-align: center;
+}
+.new p{
+  text-align:right;
+}
