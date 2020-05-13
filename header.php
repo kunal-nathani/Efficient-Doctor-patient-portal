@@ -7,8 +7,8 @@
 </head>
 <body>
   <div class="new">
-  <div class="img1" align="left"><image src="images/logo.jpg"></div>
-  <a href="loginl.php">Login</a><a href="registration.php">Signup</a>                
+  <div class="img1" align="left"><image src="../images/logo.jpg"></div>
+  <a href="dlogin.php">Login</a><a href="dregister.php">Signup</a>                
 <h2>DOCTOR PATIENT PORTAL</h2>
 <p>your name:</p>
 </div>
@@ -20,20 +20,18 @@
   <span></span>
   </div>
     <ul>
-  <li><a href="homepage2.php">Home</a></li>
-  <li><a href="loginl.php">Login page</a></li>
-  <li><a href="registration.php">Registration</a></li>
-  <li><a href="history.php">History</a></li>
-  <li><a href="#">Appointment</a></li>
-  <li><a href="organdonationl.php">Organ Donation</a></li>
-  <li><a href="feedback.php">Feedback</a></li>
-</ul>
+  <li><a href="dhomepage.php">Home</a></li>
+  <li><a href="dlogin.php">Login page</a></li>
+  <li><a href="dregister.php">Registration</a></li>
+  <li><a href="organs.php">Donated Organs</a></li>
+  <li><a href="dfeedback.php">Feedback</a></li>
+    <li><a href="contactus.php">Contactus</a></li>
 </div>
 </div>
  <style type="text/css">
   body{
     position: sticky;
-    background-image: url("images/lol4.jpg");
+    background-image: url("../images/lol4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   } 
