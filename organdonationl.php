@@ -1,7 +1,8 @@
-<?php include('header.php'); ?>
+<?php include('header.php'); 
+error_reporting(0);?>
 <link rel="stylesheet" type="text/css" href="css/organ.css">
 <br>
-<form action="organdonation.php" method="post">
+<form  method="post">
 <div class="name">
       <img src="images/organ1.jpg" align="center"><br>
 
@@ -467,7 +468,7 @@
       <input type="text" id="Other illnesses" name="others" placeholder="Your Other illnesses.."maxlength="10"/required>
 </br>
 <br>
-<input type="submit" value="Submit"><br>
+<input type="submit" value="Submit" onclick="myalert()"><br>
 </br>
 
 </div>
@@ -519,7 +520,9 @@ else
 
  ?>
 <script type="text/javascript">
-       function alert() {
-                  echo "sucessful registeration";
+       function myalert() {
+                alert("Welcome to to our portal\n " + 
+                "Thanks!for registration"); 
             }
 </script>
+<?php include('footer.php'); ?>

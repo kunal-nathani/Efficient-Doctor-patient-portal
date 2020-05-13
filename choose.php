@@ -1,5 +1,35 @@
-<?php include('header.php'); ?>
-
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>Login Page</title>
+<script src="js/new.js"></script>
+</head>
+<body>
+  <div class="new">
+  <div class="img1" align="left"><image src="images/logo.jpg"></div>               
+<h2>DOCTOR PATIENT PORTAL</h2>
+<p>your name:</p>
+</div>
+  <header>
+<div id="sidebar">
+<div class="toggle-btn" onclick="togglesidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+    <ul>
+  <li><a href="homepage2.php">Home</a></li>
+  <li><a href="loginl.php">Login page</a></li>
+  <li><a href="registration.php">Registration</a></li>
+  <li><a href="history.php">History</a></li>
+  <li><a href="#">Appointment</a></li>
+  <li><a href="organdonationl.php">Organ Donation</a></li>
+  <li><a href="feedback.php">Feedback</a></li>
+</ul>
+</div>
+</div>
+<link rel="stylesheet" type="text/css" href="css/choose.css">
  <style type="text/css">
 	.patient{
 	    margin-top:200px;
@@ -30,16 +60,21 @@
 		padding-top: 20px; 
 		padding-bottom:25px;
 	}
-	
+	  body{
+    position: sticky;
+    background-image: url("images/lol4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
 	</style>
 <div class="button">
 	<div class="patient">
-		<a href="login.html"><img src="images/patient.png" id="Patient"></a><br>
-		<a href="login.html">Patient</a>
+		<a href="loginl.php"><img src="images/patient.png" id="Patient"></a><br>
+		<a href="loginl.php">Patient</a>
 	</div>
 	<div class="doctor">
-		<a href="dlogin.html"><img src="images/doctor.png" id="Doctor"></a><br>
-		<a href="dlogin.html">Doctor</a>
+		<a href="doctor/dlogin.php"><img src="images/doctor.png" id="Doctor"></a><br>
+		<a href="doctor/dlogin.php">Doctor</a>
 	</div>
 
 </div>

@@ -395,20 +395,12 @@ error_reporting(0);
   <input type="radio" name="gender" value="female"> Female<br>
   <input type="radio" name="gender" value="other"> Other<br>
             
-        <input type="submit" value="Register" action="homepage2.html">
+        <input type="submit" value="Register" action="homepage2.html" onclick="myalert()">
 
       </form>
     </div>
 
-  </header>
-  <div class="footer">
-  <ul>
-    <li><a href="contact.html">Contactus</a></li>
-    <li><a href="feedback.html">Feedback</a></li>
-</ul>
-</div>
-</body>
-</html>
+
 <?php
 $index = 1;
 if(isset($_POST['fname'])){$fname = $_POST['fname'];}
@@ -437,7 +429,7 @@ else
             echo $conn -> error;
             $stmt->bind_param("sssiisssisssss", $fname, $mname, $lname, $phone1, $phone2, $addr, $state, $city, $pincode, $email, $passwd, $age, $blood, $gender);
             $stmt->execute();
-            echo "registration successful";
+        
             header('Location: homepage2.php');
             $stmt->close();
             $conn->close();
@@ -445,3 +437,10 @@ else
   
 
  ?>
+<?php include 'footer.php';?>
+<script type="text/javascript">
+       function myalert() {
+                alert("Welcome to to our portal\n " + 
+                "Thanks!for registration"); 
+            }
+</script>

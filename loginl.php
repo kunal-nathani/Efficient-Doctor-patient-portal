@@ -16,22 +16,15 @@
 
     <input type="submit" value="Submit"><br>
     <a href="reset.php">Reset password</a>
+      <br>
       OR
     <br>
-   <a href="registration.html">Signup</a>
+   <a href="registration.php">Signup</a>
   </form>
 	</div>
-r
-<div class="footer">
-  <ul>
-    <li><a href="contact.html">Contactus</a></li>
-    <li><a href="feedback.html">Feedback</a></li>
-</ul>
-</div>  
-</header>
-</body>
-</html>
 
+
+<?php include('footer.php'); ?>
 <?php
  $con= mysqli_connect("localhost","root","");
  $db= mysqli_select_db($con,'project1');
