@@ -1,5 +1,27 @@
 <?php include('header.php'); ?>
+  <div class="organs">
+  <label for="Organs" align="center">Choose Organs:</label><br>
+      <select id="organs" name="organs">
+      <option value="Choose Organs">Choose organs</option>
+      <option value="Heart">Heart</option>
+      <option value="Kidney">Kidney</option>
+      <option value="Skin">Skin</option>
+      <option value="Eyes">Eyes</option>
+      <option value="Lungs">Lungs</option>
+    </select>
+  </div>
    <style type="text/css"> 
+    .organs{
+      margin :200px 100px -100px 100px;
+    
+    }
+    #organs{
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid black;
+      background-color: #87CEEB;
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
     .new{
     margin-top: -200px;
     }
@@ -35,11 +57,13 @@
   </style>
 <table style="width:80%" id="Pasttable">
   <tr>
+    <th>Organ id</th>
     <th>Name of Donor</th>
     <th>Organ to be Donated</th>
     <th>Donor's Age</th>
     <th>Donor's Email</th>
     <th>Donor's Phone</th>
+    <th>Blood Group</th>
   </tr>
   <tr>
     <th> rahul</th>
